@@ -1,5 +1,64 @@
 # Changelog
 
+## [1.57.62](https://github.com/brave/brave-browser/releases/tag/v1.57.62)
+
+ - Upgraded Chromium to 116.0.5845.180. ([#32765](https://github.com/brave/brave-browser/issues/32765)) ([Changelog for 116.0.5845.180](https://chromium.googlesource.com/chromium/src/+log/116.0.5845.163..116.0.5845.180?pretty=fuller&n=1000))
+
+## [1.57.60](https://github.com/brave/brave-browser/releases/tag/v1.57.60)
+
+ - Fixed "Allow app links to open in apps outside of Brave" being disabled by default. ([#32500](https://github.com/brave/brave-browser/issues/32500))
+ - Upgraded Chromium to 116.0.5845.163. ([#32587](https://github.com/brave/brave-browser/issues/32587)) ([Changelog for 116.0.5845.163](https://chromium.googlesource.com/chromium/src/+log/116.0.5845.114..116.0.5845.163?pretty=fuller&n=1000))
+
+## [1.57.53](https://github.com/brave/brave-browser/releases/tag/v1.57.53)
+
+### Web3
+
+ - Added support for "Swap" on Base. ([#32235](https://github.com/brave/brave-browser/issues/32235))
+ - Fixed cancelling unapproved transaction continues to display the pending transaction icon. ([#32199](https://github.com/brave/brave-browser/issues/32199))
+
+### General
+
+ - Fixed crash when interacting with brave://adblock on multiple tabs. ([#14123](https://github.com/brave/brave-browser/issues/14123))
+ - Upgraded Chromium to 116.0.5845.114. ([#32451](https://github.com/brave/brave-browser/issues/32451)) ([Changelog for 116.0.5845.114](https://chromium.googlesource.com/chromium/src/+log/116.0.5845.96..116.0.5845.114?pretty=fuller&n=1000))
+
+## [1.57.50](https://github.com/brave/brave-browser/releases/tag/v1.57.50)
+
+ - Fixed crash when using the bottom toolbar in certain cases. ([#32334](https://github.com/brave/brave-browser/issues/32334))
+ - Fixed "Back" gesture closing/crashing Brave on Android 14. ([#31939](https://github.com/brave/brave-browser/issues/31939))
+
+## [1.57.47](https://github.com/brave/brave-browser/releases/tag/v1.57.47)
+
+### Web3
+
+ - Added Market Tab. ([#30301](https://github.com/brave/brave-browser/issues/30301))
+ - Added asset details within Market Tab. ([#30717](https://github.com/brave/brave-browser/issues/30717))
+ - Added Activity Tab. ([#30608](https://github.com/brave/brave-browser/issues/30608))
+ - Added the ability to connect to DApps by selected network per origin. ([#29635](https://github.com/brave/brave-browser/issues/29635))
+ - Added "Help Center" link next to "Privacy Policy" link on the "Swap" page. ([#30372](https://github.com/brave/brave-browser/issues/30372))
+ - Added full network name in status bar for "Buy", "Send" and "Swap" activity. ([#30341](https://github.com/brave/brave-browser/issues/30341))
+ - Added Ellipsify contract address in status bar for "Buy", "Send" and "Swap" activity. ([#30340](https://github.com/brave/brave-browser/issues/30340))
+ - Improved "Select Network" by displaying test networks in separate group. ([#31815](https://github.com/brave/brave-browser/issues/31815))
+ - Fixed Filecoin EVM Testnet being displayed in secondary networks list. ([#30903](https://github.com/brave/brave-browser/issues/30903))
+ - Fixed changing network momentarily flashes ETH icon. ([#24244](https://github.com/brave/brave-browser/issues/24244))
+
+### Rewards
+
+ - Updated "Estimated Earnings" indicator to display a monthly payout range. ([#30352](https://github.com/brave/brave-browser/issues/30352))
+ - Updated "Brave Rewards" button in native browser settings to redirect to brave://rewards settings page. ([#26902](https://github.com/brave/brave-browser/issues/26902))
+
+### General
+
+ - Added support for "Forget by Default" browsing mode. ([#26465](https://github.com/brave/brave-browser/issues/26465))
+ - Added farbled weights to Accept-Language headers' service workers. ([#29372](https://github.com/brave/brave-browser/issues/29372))
+ - Added ability to Allow/Block universal links from being opened in external apps. ([#25863](https://github.com/brave/brave-browser/issues/25863))
+ - Added support for overriding eTLD+1 exceptions from default adblock filter lists. ([#20426](https://github.com/brave/brave-browser/issues/20426))
+ - Improved text on domain blocking interstitial page. ([#30142](https://github.com/brave/brave-browser/issues/30142))
+ - Improved accessibility by fixing several content labelling issues. ([#30763](https://github.com/brave/brave-browser/issues/30763))
+ - Removed known Hive email trackers "h_sid" and "h_slt" from URLs. ([#30731](https://github.com/brave/brave-browser/issues/30731))
+ - Removed "Restore" button from VPN subscription modal when there's no active subscription available. ([#30244](https://github.com/brave/brave-browser/issues/30244))
+ - Fixed custom filter lists in shields not respecting the "Expires" field. ([#17909](https://github.com/brave/brave-browser/issues/17909))
+ - Upgraded Chromium to 116.0.5845.96. ([#32241](https://github.com/brave/brave-browser/issues/32241)) ([Changelog for 116.0.5845.96](https://chromium.googlesource.com/chromium/src/+log/115.0.5790.171..116.0.5845.96?pretty=fuller&n=1000))
+
 ## [1.56.20](https://github.com/brave/brave-browser/releases/tag/v1.56.20)
 
 - Fixed performance issues loading Facebook timeline due to Safe Browsing. ([#31894](https://github.com/brave/brave-browser/issues/31894))
