@@ -1,5 +1,103 @@
 # Changelog
 
+## [1.61.101](https://github.com/brave/brave-browser/releases/tag/v1.61.101)
+
+ - Upgraded Chromium to 120.0.6099.71. ([#34740](https://github.com/brave/brave-browser/issues/34740)) ([Changelog for 120.0.6099.71](https://chromium.googlesource.com/chromium/src/+log/120.0.6099.62..120.0.6099.71?pretty=fuller&n=1000))
+
+## [1.61.100](https://github.com/brave/brave-browser/releases/tag/v1.61.100)
+
+### Web3
+
+ - Added Brave Rewards custodial balance line item into Brave Wallet. ([#31713](https://github.com/brave/brave-browser/issues/31713))
+ - Updated Brave Wallet panel navigation to be persistent on open/close of panel. ([#33677](https://github.com/brave/brave-browser/issues/33677))
+ - Updated NFT name to wrap on "Send" panel screen when necessary. ([#33442](https://github.com/brave/brave-browser/issues/33442))
+ - Removed horizontal scroll bar on "Edit gas" screen. ([#33373](https://github.com/brave/brave-browser/issues/33373))
+ - Fixed incorrect error message when trying to import accounts from a locked Ledger device. ([#21016](https://github.com/brave/brave-browser/issues/21016))
+ - Fixed persistent "Sign Transaction" panel even after transaction is cancelled. ([#34668](https://github.com/brave/brave-browser/issues/34668))
+ - Fixed Brave Wallet menu display on small screens. ([#33877](https://github.com/brave/brave-browser/issues/33877))
+
+### Rewards
+
+ - Implemented new design for account provider selection screen. ([#33258](https://github.com/brave/brave-browser/issues/33258))
+
+### General
+
+ - Added search, sort, and editing features to the Bookmarks side panel. ([#34021](https://github.com/brave/brave-browser/issues/34021))
+ - Added a command line switch to disable vertical tabs. ([#33711](https://github.com/brave/brave-browser/issues/33711))
+ - Added universal online installer for Windows. ([#32598](https://github.com/brave/brave-browser/issues/32598))
+ - Added system default theme mode on Linux. ([#14685](https://github.com/brave/brave-browser/issues/14685))
+ - Updated margins for sidebar buttons. ([#34249](https://github.com/brave/brave-browser/issues/34249))
+ - Upgraded Chromium to 120.0.6099.62. ([#34723](https://github.com/brave/brave-browser/issues/34723)) ([Changelog for 120.0.6099.62](https://chromium.googlesource.com/chromium/src/+log/119.0.6045.199..120.0.6099.62?pretty=fuller&n=1000))
+
+## [1.60.125](https://github.com/brave/brave-browser/releases/tag/v1.60.125)
+
+ - Added support for quoted scriptlet arguments. ([#34170](https://github.com/brave/brave-browser/issues/34170))
+ - Fixed issue where Brave Leo gives incomplete answers in certain cases. ([#34321](https://github.com/brave/brave-browser/issues/34321))
+ - Fixed VPN toolbar button state mismatch. ([#33023](https://github.com/brave/brave-browser/issues/33023))
+ - Fixed misaligned window buttons on Linux. ([#34201](https://github.com/brave/brave-browser/issues/34201))
+ - Fixed "Set as default" not working on Linux when installed via Snap. ([#34053](https://github.com/brave/brave-browser/issues/34053))
+ - Upgraded Chromium to 119.0.6045.199. ([#34574](https://github.com/brave/brave-browser/issues/34574)) ([Changelog for 119.0.6045.199](https://chromium.googlesource.com/chromium/src/+log/119.0.6045.163..119.0.6045.199?pretty=fuller&n=1000))
+
+## [1.60.118](https://github.com/brave/brave-browser/releases/tag/v1.60.118)
+
+ - Fixed crash on startup when using Linux Arm64. ([#33596](https://github.com/brave/brave-browser/issues/33596))
+ - Upgraded Chromium to 119.0.6045.163. ([#34331](https://github.com/brave/brave-browser/issues/34331)) ([Changelog for 119.0.6045.163](https://chromium.googlesource.com/chromium/src/+log/119.0.6045.124..119.0.6045.163?pretty=fuller&n=1000))
+
+## [1.60.114](https://github.com/brave/brave-browser/releases/tag/v1.60.114)
+
+ - Added a first-party exception list to the correct adblock engine. ([#34081](https://github.com/brave/brave-browser/issues/34081))
+ - Upgraded Chromium to 119.0.6045.124. ([#34164](https://github.com/brave/brave-browser/issues/34164)) ([Changelog for 119.0.6045.124](https://chromium.googlesource.com/chromium/src/+log/119.0.6045.105..119.0.6045.124?pretty=fuller&n=1000))
+
+## [1.60.110](https://github.com/brave/brave-browser/releases/tag/v1.60.110)
+
+### Web3
+
+ - Added loading state indicator on "Select token" screen. ([#32641](https://github.com/brave/brave-browser/issues/32641))
+ - Implemented Sign-In With Ethereum (SIWE). ([#32078](https://github.com/brave/brave-browser/issues/32078))
+ - Implemented Safe Sign for CoW Swaps. ([#33093](https://github.com/brave/brave-browser/issues/33093))
+ - Improved performance of "Network" filter dropdown. ([#33004](https://github.com/brave/brave-browser/issues/33004))
+ - Fixed Blockie account addresses being cut off in the "Send" panel. ([#33912](https://github.com/brave/brave-browser/issues/33912))
+ - Fixed formatting on the "Market" tab of the panel. ([#33331](https://github.com/brave/brave-browser/issues/33331))
+ - Fixed incorrect balances and infinite loading for amounts in certain cases. ([#33187](https://github.com/brave/brave-browser/issues/33187))
+
+### General
+
+ - Added Brave Leo - AI for questions and answers leveraging page context and integrated into the sidebar (being rolled out in phases using Griffin starting at 20%). ([#34044](https://github.com/brave/brave-browser/issues/34044))
+ - Added support for "#@#+js()" syntax for blanket scriptlet exception. ([#33766](https://github.com/brave/brave-browser/issues/33766))
+ - Added title to "Reading List" side panel. ([#32953](https://github.com/brave/brave-browser/issues/32953))
+ - Added title to "Bookmarks" side panel. ([#32952](https://github.com/brave/brave-browser/issues/32952))
+ - [Security] Fixed WebTorrent redirect issue as reported on HackerOne by xiaoyinl. ([#32856](https://github.com/brave/brave-browser/issues/32856))
+ - [Security] Fixed WebTorrent navigation issue as reported on HackerOne by xiaoyinl. ([#32743](https://github.com/brave/brave-browser/issues/32743))
+ - [Security] Fixed Tor tab redirect issue as reported on HackerOne by xiaoyinl. ([#32706](https://github.com/brave/brave-browser/issues/32706))
+ - Enabled History datatype for Brave Sync. ([#32876](https://github.com/brave/brave-browser/issues/32876))
+ - Enabled SKU SDK on Linux. ([#32803](https://github.com/brave/brave-browser/issues/32803))
+ - Updated default behavior for vertical tabs display when in fullscreen mode. ([#33136](https://github.com/brave/brave-browser/issues/33136))
+ - Updated display frequency for New Tab Page Sponsored Image. ([#33228](https://github.com/brave/brave-browser/issues/33228))
+ - Updated New Tab Page Sponsored Image counter to reset every 24 hours. ([#31551](https://github.com/brave/brave-browser/issues/31551))
+ - Updated design of Brave News feed cards. ([#33296](https://github.com/brave/brave-browser/issues/33296))
+ - Updated Brave News to only download the page's linked alternate feeds when the UI list is opened. ([#33246](https://github.com/brave/brave-browser/issues/33246))
+ - Moved brave://settings/socialBlocking to brave://settings/shields. ([#32956](https://github.com/brave/brave-browser/issues/32956))
+ - Moved brave://settings/newTab to brave://settings/getStarted. ([#32954](https://github.com/brave/brave-browser/issues/32954))
+ - Removed known tracking parameter "_gl" from URLs. ([#33188](https://github.com/brave/brave-browser/issues/33188))
+ - Removed known tracking parameter "unicorn_click_id" from URLs. ([#33172](https://github.com/brave/brave-browser/issues/33172))
+ - Removed known tracking parameters "at_recipient_id" and "at_recipient_list" from URLs. ([#32488](https://github.com/brave/brave-browser/issues/32488))
+ - Fixed flashing tray icon when clicking "Try again" in the VPN panel on Windows. ([#33405](https://github.com/brave/brave-browser/issues/33405))
+ - Fixed keyboard shortcuts not working after selecting Speedreader appearance controls. ([#32948](https://github.com/brave/brave-browser/issues/32948))
+ - Fixed rendering of Speedreader theme checkmark on Linux. ([#32947](https://github.com/brave/brave-browser/issues/32947))
+ - Fixed overlapping vertical lines in the "Tabs" section under brave://settings/appearance. ([#30100](https://github.com/brave/brave-browser/issues/30100))
+ - Upgraded Chromium to 119.0.6045.105. ([#34024](https://github.com/brave/brave-browser/issues/34024)) ([Changelog for 119.0.6045.105](https://chromium.googlesource.com/chromium/src/+log/118.0.5993.117..119.0.6045.105?pretty=fuller&n=1000))
+
+## [1.59.124](https://github.com/brave/brave-browser/releases/tag/v1.59.124)
+
+### Web3
+
+ - Fixed "Market" tab displaying incorrect colors for increased/decreased prices. ([#33838](https://github.com/brave/brave-browser/issues/33838))
+
+### General
+
+ - Brave Ad Block Resources Library now updates via Component Updater on a more frequent basis, to always have most recent Ad Block lists. ([#32274](https://github.com/brave/brave-browser/issues/32274))
+ - Upgraded Chromium to 118.0.5993.117. ([#33893](https://github.com/brave/brave-browser/issues/33893)) ([Changelog for 118.0.5993.117](https://chromium.googlesource.com/chromium/src/+log/118.0.5993.96..118.0.5993.117?pretty=fuller&n=1000))
+
 ## [1.59.122](https://github.com/brave/brave-browser/releases/tag/v1.59.122)
 
  - Upgraded Chromium to 118.0.5993.96 (macOS only). ([#33752](https://github.com/brave/brave-browser/issues/33752)) ([Changelog for 118.0.5993.96](https://chromium.googlesource.com/chromium/src/+log/118.0.5993.88..118.0.5993.96?pretty=fuller&n=1000))
